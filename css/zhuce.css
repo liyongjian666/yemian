@@ -1,0 +1,158 @@
+body {
+  background: #F0F0F0; }
+
+
+
+
+header {
+  width: 100%;
+  height: 2.2rem;
+  background: white;
+  display: flex; }
+
+header .header_first {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+header .header_second {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem; }
+
+header .header_last {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+article {
+  width: 100%;
+  margin-bottom: 15%; }
+  article .biaodan {
+    width: 100%; }
+    article .biaodan ul {
+      width: 100%; }
+      article .biaodan ul li {
+        width: 100%;
+        height: 2.5rem;
+        background: white;
+        display: flex;
+        margin-top: 0.6rem;
+        border-bottom: 1px solid gainsboro; }
+        article .biaodan ul li .dandu {
+          width: 3.5rem;
+          height: 2.5rem; }
+        article .biaodan ul li .ddinp {
+          width: 12.9rem;
+          height: 100%; }
+        article .biaodan ul li .jiaoyan {
+          width: 4.3rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          background: blue;
+          font-size: 0.7rem;
+          font-weight: 500;
+          }
+        article .biaodan ul li div {
+          width: 2.3rem;
+          height: 2.5rem;
+          display: flex;
+          padding-left: 0.6rem;
+          align-items: center;
+          border-right: 1px solid gainsboro;
+          font-size: 0.7rem;
+          font-weight: 900; }
+        article .biaodan ul li input {
+          width: 18rem;
+          height: 100%;
+          padding-left: 0.5rem;
+          font-size: 0.6rem;
+          color: black; }
+  article .denglu {
+    margin-top: 1.4rem;
+    width: 100%;
+    height: 2.2rem;
+    display: flex;
+    justify-content: center; }
+  article .denglu input {
+    width: 20rem;
+    height: 100%;
+    background: #FF3451;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem; }
+  article .ljzc {
+    width: 100%;
+    height: 0.7rem;
+    margin-top: 1rem;
+    display: flex; }
+  article .ljzc .ljzc_first {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    color: gray;
+    font-size: 0.7rem; }
+  article .ljzc .ljzc_last {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: gray;
+    padding-right: 3%;
+    font-size: 0.7rem; }
+    article .ljzc .ljzc_last span {
+      color: black; }
+  article .xian {
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem; }
+  article .xian div {
+    width: 27%;
+    height: 0.1rem;
+    background: #8386AD; }
+  article .xian p {
+    color: #8386AD;
+    font-size: 0.8rem;
+    font-weight: 900; }
+  article .footer {
+    width: 100%;
+    height: 1.9rem;
+    margin-top: 1.4rem;
+    text-align: center; }
+
+footer {
+  width: 100%;
+  height: 2.8rem;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid gray;
+  background: white; }
+
+footer ul {
+  width: 100%;
+  height: 2.8rem;
+  display: flex; }
+
+footer ul li {
+  width: 20%;
+  height: 2.8rem;
+  text-align: center;
+  padding-top: 0.5rem; }
+
+footer ul li p {
+  font-size: 0.6rem; }

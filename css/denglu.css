@@ -1,0 +1,149 @@
+body {
+  background: #F0F0F0; }
+
+header {
+  width: 100%;
+  height: 2.2rem;
+  background: white;
+  display: flex; }
+  header .header_first {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  header .header_second {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem; }
+  header .header_last {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+article {
+  width: 100%; }
+  article .first_se {
+    margin-top: 0.7rem;
+    width: 100%;
+    height: 2.5rem;
+    background: white;
+    display: flex; }
+    article .first_se div {
+      width: 2.3rem;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.6rem;
+      font-weight: 900; }
+    article .first_se input {
+      width: 18.4rem;
+      height: 100%;
+      color: black;
+      padding-left: 4%;
+      display: flex;
+      align-items: center;
+      font-size: 0.6rem; }
+  article .last_se {
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 0.7rem;
+    background: white;
+    display: flex; }
+    article .last_se .last_first {
+      width: 2.3rem;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.6rem;
+      font-weight: 900; }
+    article .last_se input {
+      width: 14rem;
+      height: 100%;
+      padding-left: 4%;
+      color: black;
+      font-size: 0.6rem; }
+    article .last_se .last_last {
+      display: flex;
+      align-items: center; }
+  article .denglu {
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 2.2rem;
+    display: flex;
+    justify-content: center; }
+    article .denglu input {
+      width: 20rem;
+      height: 100%;
+      background: #FF3451;
+      border-radius: 5px;
+      color: white;
+      font-size: 1rem; }
+  article .ljzc {
+    width: 100%;
+    height: 0.7rem;
+    margin-top: 1rem;
+    display: flex; }
+    article .ljzc .ljzc_first {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding-left: 3%;
+      color: gray;
+      font-size: 0.7rem; }
+    article .ljzc .ljzc_last {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      color: gray;
+      padding-right: 3%;
+      font-size: 0.7rem; }
+  article .xian {
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem; }
+    article .xian div {
+      width: 27%;
+      height: 0.1rem;
+      background: #8386AD; }
+    article .xian p {
+      color: #8386AD;
+      font-size: 0.8rem;
+      font-weight: 900; }
+  article .footer {
+    width: 100%;
+    height: 1.9rem;
+    margin-top: 1.4rem;
+    text-align: center; }
+
+footer {
+  width: 100%;
+  height: 2.8rem;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid gray;
+  background: white; }
+  footer ul {
+    width: 100%;
+    height: 2.8rem;
+    display: flex; }
+    footer ul li {
+      width: 20%;
+      height: 2.8rem;
+      text-align: center;
+      padding-top: 0.5rem; }
+      footer ul li p {
+        font-size: 0.6rem; }

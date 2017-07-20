@@ -1,0 +1,209 @@
+header {
+  width: 100%;
+  height: 9rem;
+  background-image: url(../img/09593671202.jpg);
+  background-size: 100% 100%;
+  position: relative;
+ }
+ .header_img1
+ {
+ 	width: 2.5rem;
+ 	position: absolute;
+ 	top: 0.4rem;
+ 	left: 0.6rem;
+ }
+ .header_img2{
+ 	position: absolute;
+ 	left: 4rem;
+ 	top: 0.4rem;
+ 	width: 12rem;
+ }
+ 
+ 
+  
+
+article {
+  margin-top: 1rem;
+  width: 100%;
+  margin-bottom: 4rem; }
+  article .top {
+    width: 100%; }
+    article .top ul {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap; }
+      article .top ul li {
+        width: 25%;
+        height: 4rem;
+        text-align: center; }
+        article .top ul li img {
+          width: 2.25rem; }
+        article .top ul li p {
+          font-size: 0.6rem;
+          margin-top: 0.4rem; }
+  article .top_next {
+    width: 100%;
+    margin-top: 0.3rem; }
+    article .top_next ul {
+      width: 100%;
+      display: flex; }
+      article .top_next ul li {
+        width: 33%;
+        text-align: center;
+        border-right: 1px solid gainsboro;
+        border-top: 1px solid gainsboro;
+        border-bottom: 1px solid gainsboro; }
+        article .top_next ul li img {
+          margin-top: 1rem; }
+        article .top_next ul li p {
+          font-size: 0.6rem;
+          margin-top: 0.9rem;
+          color: red; }
+  article .huiyuan {
+    width: 100%;
+    display: flex;
+    margin-top: 0.4rem; }
+    article .huiyuan div {
+      width: 50%; }
+      article .huiyuan div img {
+        width: 100%; }
+  article .qiandao {
+    width: 100%; }
+    article .qiandao ul {
+      width: 100%;
+      display: flex; }
+      article .qiandao ul .qiandao_first {
+        width: 5.6rem;
+        height: 5.8rem;
+        border-top: 1px solid gainsboro;
+        border-bottom: 1px solid gainsboro;
+        text-align: center; }
+        article .qiandao ul .qiandao_first img {
+          margin-top: 0.9rem; }
+        article .qiandao ul .qiandao_first p {
+          font-size: 0.6rem;
+          margin-top: 1rem; }
+      article .qiandao ul .qiandao_second {
+        width: 9.5rem;
+        height: 5.8rem;
+        border: 1px solid gainsboro;
+        text-align: center; }
+        article .qiandao ul .qiandao_second img {
+          margin-top: 0.9rem; }
+        article .qiandao ul .qiandao_second p {
+          font-size: 0.6rem;
+          margin-top: 0.4rem; }
+  article .hao {
+    width: 100%;
+    display: flex;
+    height: 8rem; }
+    article .hao .hao_first {
+      width: 70%;
+      height: 8rem;
+      position: relative;
+      display: flex; }
+      article .hao .hao_first .dingwei {
+        width: 6.8rem;
+        position: absolute;
+        top: 1.1rem;
+        left: 0.2rem;
+        z-index: 10; }
+        article .hao .hao_first .dingwei .dingwei_first {
+          color: green;
+          font-size: 0.6rem; }
+        article .hao .hao_first .dingwei .dingwei_last {
+          color: gray;
+          font-size: 0.6rem; }
+      article .hao .hao_first .dingwei_img {
+        position: absolute;
+        left: 7rem;
+        z-index: 3;
+        justify-content: flex-end; }
+    article .hao .hao_last {
+      width: 30%; }
+      article .hao .hao_last ul {
+        width: 100%; }
+        article .hao .hao_last ul li {
+          width: 100%;
+          height: 2.9rem; }
+          article .hao .hao_last ul li .hao_last_p1 {
+            font-size: 0.6rem;
+            font-weight: 900; }
+          article .hao .hao_last ul li .hao_last_p2 {
+            color: green;
+            font-size: 0.6rem;
+            font-weight: 900; }
+  article .footer_qian {
+    width: 100%;
+    height: 2rem;
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+    margin-top: 1rem;
+    display: flex; }
+    article .footer_qian .footer_qian_first {
+      width: 0.3rem;
+      height: 100%;
+      background: orange; }
+    article .footer_qian .footer_qian_second {
+      width: 18rem;
+      height: 100%;
+      font-size: 0.7rem;
+      display: flex;
+      align-items: center;
+      padding-left: 0.2rem;
+      color: orange; }
+    article .footer_qian .footer_qian_last {
+      display: flex;
+      align-items: center; }
+  article .xunhuan {
+    width: 100%;
+    margin-top: 0.7rem; }
+    article .xunhuan ul {
+      width: 100%; }
+      article .xunhuan ul li {
+        width: 100%;
+        height: 6rem;
+        display: flex;
+        border-bottom: 1px solid gainsboro;
+        margin-bottom: 0.4rem; }
+        article .xunhuan ul li .zuotu {
+          width: 30%;
+          text-align: center; }
+        article .xunhuan ul li .youzi {
+          width: 70%; }
+          article .xunhuan ul li .youzi .youzi_p1 {
+            font-size: 0.6rem; }
+          article .xunhuan ul li .youzi .youzi_p2 {
+            font-size: 0.6rem;
+            margin-top: 0.2rem;
+            color: gray; }
+          article .xunhuan ul li .youzi .youzi_p3 {
+            font-size: 0.6rem;
+            margin-top: 0.9rem;
+            color: red;
+            display: flex;
+            justify-content: space-between; }
+            article .xunhuan ul li .youzi .youzi_p3 .span1 {
+              color: gray; }
+
+footer {
+  width: 100%;
+  height: 2.8rem;
+  position: fixed;
+  bottom: 0;
+  background: white;
+  border-top: 1px solid gainsboro; }
+  footer ul {
+    width: 100%;
+    height: 100%;
+    display: flex; }
+    footer ul li {
+      width: 20%;
+      height: 100%;
+      text-align: center; }
+      footer ul li img {
+        margin-top: 0.2rem; }
+      footer ul li p {
+        margin-top: 0.3rem;
+        font-size: 0.6rem;
+        font-weight: 900; }
